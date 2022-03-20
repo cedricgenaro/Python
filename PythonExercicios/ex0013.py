@@ -1,0 +1,5 @@
+print('{:=^50}'.format('Calculo de aumento de 15% do Salário'))
+sal = float(input('\n Digite o valor atual de seu salário: R$ '))
+salfinal = sal + (sal*15/100)
+print('-'*100)
+print('O seu salário de R${:.2f} com o aumento de 15% passará a ser de R$ {:.>10.2f}'.format(sal, salfinal))

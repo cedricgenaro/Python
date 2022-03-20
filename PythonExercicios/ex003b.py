@@ -1,0 +1,16 @@
+dig = input('Digite algo para analisar: ')
+print('O dado digitado foi {}'.format(dig))
+print('Ele é do tipo {}'.format(type(dig)))
+print('Só tem espaços? ', dig.isspace())
+print('Ele é um numero? {}'.format(dig.isnumeric()))
+print('Ele é alfanumérico? ', dig.isalnum())
+print('Ele é um número decimal? {}'.format(dig.isdecimal()))
+print('É alfabético? {}'.format(dig.isalpha()))
+print('Ele está com todas as letras em maiúsculo? {}'.format(dig.isupper()))
+print('Ele está todo em minúsculo? {}'.format(dig.islower()))
+print('Ele está capitalizado? ', dig.istitle())
+print('Ele é um código ascil? {}'.format(dig.isascii()))
+print('É uma cadeia de caracteres numericos? {}'.format(dig.isdigit()))
+print('Ele é imprimivel? {}'.format(dig.isprintable()))
+
+4
